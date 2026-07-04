@@ -3,6 +3,7 @@ import { Avatar, Box, Card, Chip, CssBaseline, Drawer, IconButton, InputAdornmen
 import { useState } from "react";
 import { statuses } from "../data/statuses";
 import { useAdminOrders } from "../hooks/useAdminOrders";
+import { palette } from "../theme/palette";
 import type { Order } from "../types/order";
 import { AdminNav } from "./AdminNav";
 import { OrderCard } from "./OrderCard";
